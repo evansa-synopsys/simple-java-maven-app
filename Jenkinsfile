@@ -1,3 +1,4 @@
 @Library('stargazer-orchestration')
 import com.demo.*
-new Pipeline.EntryPoint().execute('ApplicationManifest.yml','SecurityManifest.yml')
+  def p=new com.demo.pipeline.EntryPoint()
+  p.execute('ApplicationManifest.yml','SecurityManifest.yml')
