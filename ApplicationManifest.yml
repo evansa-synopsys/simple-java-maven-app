@@ -27,5 +27,4 @@ environment:
   jiraProjectName: "MJ"
   jiraIssuesQuery: "resolution = \"Unresolved\" AND labels in (Security, Defect)"
   gitlabHostUrl: "https://github.com/"
-  gitlabToken: "e6633b533fe0e7a2fea298e47dcb80648646d267"
 
